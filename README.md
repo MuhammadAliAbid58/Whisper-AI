@@ -1,3 +1,19 @@
+Whisper AI Assistant
+Your Personal Voice-Controlled Virtual Assistant
+
+Whisper AI Assistant is a Python-based, voice-controlled chatbot that integrates speech recognition and synthesis with web automation using Selenium, allowing interactive conversations via DuckDuckGo Chat.
+
+Speak to interact with the chatbot
+Receive spoken responses in real-time
+Simple setup and easy to customize
+
+Features:
+Voice input recognition using SpeechRecognition library
+Text-to-speech responses using gTTS and pygame
+Browser automation with Selenium WebDriver
+Seamless integration with DuckDuckGo Chat
+
+
 Setting Up Your Voice-Controlled Virtual Assistant Chatbot
 Welcome to the setup guide for Whisper AI Assistant, a voice-controlled virtual assistant chatbot using Python and Selenium.
 
