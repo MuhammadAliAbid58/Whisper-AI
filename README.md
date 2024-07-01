@@ -72,7 +72,7 @@ To launch your Whisper AI Assistant, follow these simple steps:
 3. Execute the following command:
 
    ```bash
-   python whisper_ai.py
+   python whisper.py
    ```
 
 
