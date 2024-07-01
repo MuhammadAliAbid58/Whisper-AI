@@ -22,6 +22,9 @@ chromedriver_path = r"C:\Users\username\Downloads\Compressed\chromedriver-win64\
 options = webdriver.ChromeOptions()
 options.binary_location = chrome_path
 
+# Runs the Browser in Hidden Mode
+options.add_argument("--headless")
+
 # Set up the ChromeDriver service
 service = ChromeService(executable_path=chromedriver_path)
 
