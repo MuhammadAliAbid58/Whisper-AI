@@ -22,7 +22,7 @@ Whisper AI Assistant is a Python-based, voice-controlled chatbot that integrates
 1. Clone the repository:
    ```bash
    https://github.com/MuhammadAliAbid58/Whisper-AI.git
-   cd whisper-ai-assistant
+   cd Whisper-AI
 
 ## 🛠️ Requirements
 
