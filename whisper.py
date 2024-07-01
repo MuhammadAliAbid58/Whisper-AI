@@ -12,15 +12,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import time
 
-# Path to the Brave browser executable
-brave_path = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+# Path to the chrome browser executable
+chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 # Path to the ChromeDriver executable
-chromedriver_path = r"C:\Users\Gamer\Downloads\Compressed\chromedriver-win64\chromedriver.exe"
+chromedriver_path = r"C:\Users\username\Downloads\Compressed\chromedriver-win64\chromedriver.exe"
 
-# Set up options to use Brave browser
+# Set up options to use chrome browser
 options = webdriver.ChromeOptions()
-options.binary_location = brave_path
+options.binary_location = chrome_path
 
 # Set up the ChromeDriver service
 service = ChromeService(executable_path=chromedriver_path)
